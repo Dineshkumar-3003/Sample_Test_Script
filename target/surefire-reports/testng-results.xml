@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14682" started-at="2020-01-10T18:56:34Z" finished-at="2020-01-10T18:56:48Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="14682" started-at="2020-01-10T18:56:34Z" finished-at="2020-01-10T18:56:48Z">
+      <class name="tests.TC_001_Verify_Message">
+        <test-method status="PASS" signature="classLevelSetup()[pri:0, instance:tests.TC_001_Verify_Message@48140564]" name="classLevelSetup" is-config="true" duration-ms="10" started-at="2020-01-10T18:56:34Z" finished-at="2020-01-10T18:56:34Z">
+        </test-method> <!-- classLevelSetup -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:tests.TC_001_Verify_Message@48140564]" name="methodLevelSetup" is-config="true" duration-ms="11661" started-at="2020-01-10T18:56:34Z" finished-at="2020-01-10T18:56:45Z">
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="Valid_Test()[pri:1, instance:tests.TC_001_Verify_Message@48140564]" name="Valid_Test" duration-ms="1891" started-at="2020-01-10T18:56:45Z" description="Valid Test Scenario" finished-at="2020-01-10T18:56:47Z">
+        </test-method> <!-- Valid_Test -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.TC_001_Verify_Message@48140564]" name="teardown" is-config="true" duration-ms="1105" started-at="2020-01-10T18:56:47Z" finished-at="2020-01-10T18:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Valid_Test STATUS:SUCCESS METHOD:TC_001_Verify_Message.Valid_Test()[pri:1, instance:tests.TC_001_Verify_Message@48140564]]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TC_001_Verify_Message -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
